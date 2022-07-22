@@ -165,7 +165,7 @@ teritorid tx staking create-validator \
  ```  
 
 ## Validator Linkinizi Paylaşma
-Sei Discord [#role-request](https://discord.gg/DPE4UHrR4k) kanalından validatorumuze ait [explorer](https://sei.explorers.guru/) linkini gönderiyoruz.
+Teritori Discord [#role-request](https://discord.gg/PKd938HbpR) kanalından validatorumuze ait [explorer](https://teritori.explorers.guru/Teritori) linkini gönderiyoruz.
 
 ## Exproler
 https://teritori.explorers.guru/
@@ -249,7 +249,7 @@ teritorid query bank balances CUZDAN_ADRESI
 
 ### Bir Cüzdandan Diğer Bir Cüzdana Transfer Yapma
 ```shell
-teritorid tx bank send CUZDAN_ADRESI GONDERILECEK_CUZDAN_ADRESI 100000000usei
+teritorid tx bank send CUZDAN_ADRESI GONDERILECEK_CUZDAN_ADRESI 100000000utori
 ```
 
 ### Proposal Oylamasına Katılma
@@ -298,7 +298,7 @@ teritorid tx slashing unjail \
 ```shell
 sudo systemctl stop teritorid && \
 sudo systemctl disable teritorid && \
-rm /etc/systemd/system/seid.service && \
+rm /etc/systemd/system/teritorid.service && \
 sudo systemctl daemon-reload && \
 cd $HOME && \
 rm -rf .teritori teritori && \
