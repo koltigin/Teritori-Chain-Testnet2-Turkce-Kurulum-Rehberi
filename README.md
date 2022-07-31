@@ -13,7 +13,7 @@ Code](https://img.shields.io/tokei/lines/github/TERITORI/teritori-chain?style=fl
 ## Sistem Gereksinimleri
 - 2CPU
 - 2GB RAM
-- 80GB SSD
+- 160GB SSD (Benim Önerim)
 - Ubuntu 18.04 LTS ve üzeri.
 
 ## Sistemi Güncelleme
