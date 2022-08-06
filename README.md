@@ -28,17 +28,22 @@ apt install build-essential git curl gcc make jq -y
 
 ## Go Kurulumu  
 ```shell
-wget -c https://go.dev/dl/go1.18.3.linux-amd64.tar.gz && rm -rf /usr/local/go && tar -C /usr/local -xzf go1.18.3.linux-amd64.tar.gz && rm -rf go1.18.3.linux-amd64.tar.gz
+ver="1.18.4"
+wget "https://golang.org/dl/go$ver.linux-amd64.tar.gz"
+rm -rf /usr/local/go
+tar -C /usr/local -xzf "go$ver.linux-amd64.tar.gz"
+rm -rf "go$ver.linux-amd64.tar.gz"
 echo 'export GOROOT=/usr/local/go' >> $HOME/.bash_profile
 echo 'export GOPATH=$HOME/go' >> $HOME/.bash_profile
 echo 'export GO111MODULE=on' >> $HOME/.bash_profile
-echo 'export PATH=$PATH:/usr/local/go/bin:$HOME/go/bin' >> $HOME/.bash_profile && . $HOME/.bash_profile
+echo 'export PATH=$PATH:/usr/local/go/bin:$HOME/go/bin' >> $HOME/.bash_profile
+source $HOME/.bash_profile
 go version
 ```  
 
 Yukarıdaki son kodun çıktısı aşağıdaki gibiyse işlem tamamdır.
 ```shell
-go version go1.18.3 linux/amd64
+go version go1.18.4 linux/amd64
 ``` 
 
 ## Değişkenleri Yükleme
@@ -302,8 +307,8 @@ sudo systemctl disable teritorid && \
 rm /etc/systemd/system/teritorid.service && \
 sudo systemctl daemon-reload && \
 cd $HOME && \
-rm -rf .teritori teritori && \
-rm -rf $(which teritorid)
+rm -r .teritorid teritori-chain && \
+rm -r $(which teritorid)
 ```
 
 
