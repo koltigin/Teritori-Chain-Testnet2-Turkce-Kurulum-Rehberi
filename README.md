@@ -312,20 +312,17 @@ rm -r $(which teritorid)
 ```
 
 
-### Hesaplar:
+# Hesaplar
 
-[Linktree](https://linktr.ee/mehmetkoltigin)
+[Anatolian Team](https://anatolianteam.com)
 
 [Twitter](https://twitter.commehmetkoltigin)
 
-### Komunite 
-[Forum Rues](https://forum.rues.info/index.php)
+[Medium](https://medium.com/@mehmetkoltigin)
 
-[Telegram Rues Announcement](https://t.me/RuesAnnouncement)
+[YouTube](https://www.youtube.com/channel/UCmLgaftx5e38BE0E7gpY2dA)
 
-[Telegram Rues Chat](https://t.me/RuesChat)
+[Discord](https://discordapp.com/users/837933958280904737)
 
-[Telegram Rues Node](https://t.me/RuesNode)
-
-[Telegram Rues Node Chat](https://t.me/RuesNodeChat)
+[Telegram](https://t.me/mehmetkoltigin)
 
